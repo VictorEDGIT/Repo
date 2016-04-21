@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--holagddffdssfdsmhgbhafsfdsafds-->
+<xsl:stylesheet version="1.0" xmlns:e="https://www.marca.com">
+<xsl:stylesheet version="1.0" xmlns:c="https://www.marca.com">
+<xsl:stylesheet version="1.0" xmlns:p="https://www.marca.com">
+
+<factura>
+
+  <e:empresa>
+    <e:nombre></nombre>
+    <e:direccion></e:direccion>
+    <e:poblacion></e:poblacion>
+    <e:provincia></e:provincia>
+    <e:cp></e:cp>
+    <e:cif></e:cif>
+    <e:telefono></e:telefono>
+    <e:fax></e:fax>
+  </e:empresa>
+
+  <c:cliente>
+      <c:numero></c:numero>
+      <c:nombre></c:nombre>
+      <c:direccion></c:direccion>
+      <c:poblacion></c:poblacion>
+      <c:provincia></c:provincia>
+      <c:cif />
+      <c:nif />
+      <c:telefono></c:telefono>
+    </c:cliente>
+
+    <clistaProductos>
+      <p:producto>
+        <p:referencia></p:referencia>
+        <p:nombre></p:nombre>
+        <p:descripcion></p:descripcion>
+        <p:cantidad></p:cantidad>
+        <p:precioUnidad></p:precioUnidad>
+        <p:ivaEuros></p:ivaEuros>
+        <p:precioUnidadIva></p:precioUnidadIva>
+      </p:producto>
+      <precioTotal></precioTotal>
+      <importeIva></importeIva>
+      <precioTotalIva></precioTotalIva>
+    </listaProductos>
+
+</factura>
